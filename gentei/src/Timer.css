@@ -1,0 +1,31 @@
+.timer {
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.timer > div{
+    width:70px; /* or whatever width you want. */
+    max-width:70px; /* or whatever width you want. */
+	padding: 10px;
+	border-radius: 3px;
+	background: #1C2833;
+	display: inline-block;
+}
+
+.timer div > span{
+    width:40px; /* or whatever width you want. */
+    max-width:40px; /* or whatever width you want. */
+	padding: 15px;
+	border-radius: 3px;
+	background: #17202A;
+	display: inline-block;
+}
+
+.symbol{
+	padding-top: 5px;
+	font-size: 16px;
+}

@@ -1,2 +1,2 @@
 # gentei
-Restricted Rock Paper Scissors
+Interactive scoreboard for Restricted Rock Paper Scissors.

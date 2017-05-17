@@ -1,0 +1,31 @@
+.counter {
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.counter > div{
+    width:350px; /* or whatever width you want. */
+    max-width:350px; /* or whatever width you want. */
+	padding: 10px;
+	border-radius: 3px;
+	background: #1C2833;
+	display: inline-block;
+}
+
+.counter div > span{
+    width:300px; /* or whatever width you want. */
+    max-width:300px; /* or whatever width you want. */
+	padding: 15px;
+	border-radius: 3px;
+	background: #17202A;
+	display: inline-block;
+}
+
+.count{
+	padding-top: 5px;
+	font-size: 36px;
+}
