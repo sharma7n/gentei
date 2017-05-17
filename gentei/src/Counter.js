@@ -17,14 +17,15 @@ class Counter extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            rock: 50,
-            paper: 50,
-            scissors: 50
+            rock: '--',
+            paper: '--',
+            scissors: '--'
         };
+        this.pollCounts();
     }
     
     componentDidMount = () => {
-        var intervalId = setInterval(this.pollCounts, 1000);
+        var intervalId = setInterval(this.pollCounts, 5000);
         this.setState({intervalId: intervalId});
     }
     
